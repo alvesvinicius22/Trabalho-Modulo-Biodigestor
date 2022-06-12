@@ -1,0 +1,49 @@
+[
+    {
+        "id": "690ddac260785569",
+        "type": "ui_gauge",
+        "z": "f0e1e9880cd60b76",
+        "name": "Umidade",
+        "group": "6dbea91024be8d8e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Umidade",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#e90c0c",
+            "#34d813",
+            "#34d813"
+        ],
+        "seg1": "40",
+        "seg2": "",
+        "className": "",
+        "x": 480,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "6dbea91024be8d8e",
+        "type": "ui_group",
+        "name": "Umidade",
+        "tab": "002b39588759d98e",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "002b39588759d98e",
+        "type": "ui_tab",
+        "name": "Temperatura e Umidade",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]
